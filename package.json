@@ -1,0 +1,12 @@
+{
+  "name": "rubyprojects",
+  "version": "1.0.0",
+  "description": "Ruby 3.0 boilerplate to start",
+  "main": "index.js",
+  "scripts": {
+    "docker:build": "docker-compose -f Docker/docker-compose.yml build app",
+    "docker": "docker-compose -f Docker/docker-compose.yml run app /bin/bash"
+  },
+  "author": "",
+  "license": "ISC"
+}
